@@ -1,0 +1,51 @@
+#or{
+    font-size: 13!important;
+    color: #999;
+    font-weight: 600;
+}
+#or::before{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 120px;
+
+    position: relative;
+    top: 12px;
+
+}
+#or::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 120px;
+    position: relative;
+    bottom: 13px;
+    left: 170px;
+
+}
+#login{
+   /* background-image: url(../instagaram.png); */
+   height: "500px";
+            width: "320px";
+            margin-right: "120px";
+            margin-top: "70px";
+ }
+@media screen and (max-width: 900px) {
+    #login{
+         height: "500px";
+            width: "320px";
+            margin-right: 10px;
+            margin-left: 150px;
+            /* margin-top: "70px"; */
+    }
+  }
+  @media screen and (max-width: 900px) {
+    #dont{
+        width: "300px";
+         margin-left: 150px;
+    }
+  }
+
+ 
